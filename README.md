@@ -1,4 +1,7 @@
 # IbSearch
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/430d9f1edcda4e548332f4160d8840a5)](https://www.codacy.com/app/austinhuang0131/node-ibsearch?utm_source=github.com&utm_medium=referral&utm_content=austinhuang0131/node-ibsearch&utm_campaign=badger)
+
 ```js
 const ibsearch = require("ibsearch"),
       ib = ibsearch("api_key"); // API Key is optional but it gives you a higher rate
