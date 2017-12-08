@@ -1,0 +1,42 @@
+{
+  "name": "ibsearch",
+  "description": "A module to search ibsearch.xxx, which contains 9 boorus.",
+  "version": "1.0.0",
+  "keywords": [
+    "booru",
+    "gelbooru",
+    "danbooru",
+    "rule34",
+    "furrybo",
+    "yandere",
+    "konachan",
+    "safebooru",
+    "xbooru",
+    "e621",
+    "uberbooru"
+  ],
+  "main": "ibsearch.js",
+  "dependencies": {
+    "bluebird": "^3.0.6",
+    "request": "^2.67.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.2.0",
+    "jshint": "^2.5.8",
+    "mocha": "^2.3.3"
+  },
+  "author": "Austin Huang <im@austinhuang.me> (https://austinhuang.me)",
+  "scripts": {
+    "test": "gulp test && gulp lint",
+    "lint": "gulp lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/austinhuang0131/node-ibsearch.git"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
