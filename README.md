@@ -2,6 +2,8 @@
 ![](https://nodei.co/npm/ibsearch.png?downloads=true&downloadRank=true&stars=true)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/430d9f1edcda4e548332f4160d8840a5)](https://www.codacy.com/app/austinhuang0131/node-ibsearch?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=austinhuang0131/node-ibsearch&amp;utm_campaign=Badge_Grade)
 
+[IbSearch](https://ibsearch.xxx) searches 11 image boards at once: gelbooru, danbooru, rule34, furrybo, yandere, konachan, safebooru, xbooru, e621, and uberbooru. This module utilizes its API as well as providing a simple way to extract image URL.
+
 ```js
 const ibsearch = require("ibsearch"),
       ib = ibsearch("api_key"); // API Key is optional but it gives you a higher rate
@@ -34,4 +36,4 @@ For each object in `data`, it is everything described in the [API documentation]
     link: 'https://im1.ibsearch.xxx/f/10/8fd9c0647a88d349a0b34295c7e41.jpg' } ]
 ```
 
-`.search()` is its only function.
+## The Function: `.search(query, options)`
