@@ -1,7 +1,7 @@
 {
   "name": "ibsearch",
   "description": "A module to search ibsearch.xxx, which contains 9 boorus.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "booru",
     "gelbooru",
