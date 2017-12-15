@@ -1,6 +1,6 @@
 # IbSearch
 ![](https://nodei.co/npm/ibsearch.png?downloads=true&downloadRank=true&stars=true)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/430d9f1edcda4e548332f4160d8840a5)](https://www.codacy.com/app/austinhuang0131/node-ibsearch?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=austinhuang0131/node-ibsearch&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/430d9f1edcda4e548332f4160d8840a5)](https://www.codacy.com/app/austinhuang0131/node-ibsearch?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=austinhuang0131/node-ibsearch&amp;utm_campaign=Badge_Grade) [![Known Vulnerabilities](https://snyk.io/test/github/austinhuang0131/node-ibsearch/badge.svg)](https://snyk.io/test/github/austinhuang0131/node-ibsearch)
 
 [IbSearch](https://ibsearch.xxx) searches 11 image boards at once: gelbooru, danbooru, rule34, furrybo, yandere, konachan, safebooru, xbooru, e621, and uberbooru. This module utilizes its API as well as providing a simple way to extract image URL.
 
