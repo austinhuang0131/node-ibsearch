@@ -4,13 +4,22 @@
 
 [IbSearch](https://ibsearch.xxx) searches 11 image boards at once: gelbooru, danbooru, rule34, furrybo, yandere, konachan, safebooru, xbooru, e621, and uberbooru. This module utilizes its API as well as providing a simple way to extract image URL.
 
+The only function is `.search(query, options)` where `query` is a string and `options` is an object. Example below...
+
 ```js
 const ibsearch = require("ibsearch"),
       ib = ibsearch("api_key"); // API Key is optional but it gives you a higher rate
 
 ib.search("lolita").then(function(data) {
-    console.log(data[0].link); // SPECIAL!
-    console.log(data); // Normal
+      console.log(data[0].link); // SPECIAL!
+      console.log(data); // Normal
+}
+
+// You can add options (which is optional obviously)
+ib.search("jk", {
+      limit: 1, // Number or a string with a number: Maximum amount of results in the return. Default = 25
+      page: 1 // Page number. Default = 1
+}).then(function(data) {
 }
 ```
 For each object in `data`, it is everything described in the [API documentation](https://ibsearch.xxx/api/v1/images), **plus a `link` property** so you can just fetch your image link without hassle. Here's an example:
@@ -35,5 +44,3 @@ For each object in `data`, it is everything described in the [API documentation]
     path: 'f/10/8fd9c0647a88d349a0b34295c7e41.jpg',
     link: 'https://im1.ibsearch.xxx/f/10/8fd9c0647a88d349a0b34295c7e41.jpg' } ]
 ```
-
-## The Function: `.search(query, options)`
