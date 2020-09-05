@@ -18,7 +18,7 @@
   "main": "ibsearch.js",
   "dependencies": {
     "bluebird": "^3.0.6",
-    "request": "^2.67.0"
+    "request": "^2.84.0"
   },
   "devDependencies": {
     "chai": "^3.4.0",
